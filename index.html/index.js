@@ -9,3 +9,6 @@ function alphabetPosition(text) {
 }
 
 console.log(alphabetPosition('Hello World is not enough for us '));
+
+// Date of solution 2022.02.01
+
