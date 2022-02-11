@@ -12,22 +12,29 @@
 
 // Date of solution 2022.02.01
 
-function openOrSenior(data) {
-    var result = [];
-    for (let i = 0; i < data.length; i++) {
-        result[i] = (data[i][0] >= 55 && data[i][0] > 7) ? 'Senior' : 'Open';
-    }
+// function openOrSenior(data) {
+//     var result = [];
+//     for (let i = 0; i < data.length; i++) {
+//         result[i] = (data[i][0] >= 55 && data[i][0] > 7) ? 'Senior' : 'Open';
+//     }
 
-    return result;
+//     return result;
+// }
+
+// console.log(
+//     openOrSenior([
+//         [18, 20],
+//         [45, 2],
+//         [61, 12],
+//         [37, 6],
+//         [21, 21],
+//         [78, 9],
+//     ])
+// );
+
+let reverseWords = (str) => {
+    let reverseWordArr = str.split(' ').map(word => word.split("").reverse().join(""));
+    return reverseWordArr.join(' ');
 }
 
-console.log(
-  openOrSenior([
-    [18, 20],
-    [45, 2],
-    [61, 12],
-    [37, 6],
-    [21, 21],
-    [78, 9],
-  ])
-);
+console.log(reverseWords('First string'));
