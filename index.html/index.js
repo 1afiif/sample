@@ -32,9 +32,24 @@
 //     ])
 // );
 
+// Date of solution 2022.02.11
+
 // let reverseWords = (str) => {
 //     let reverseWordArr = str.split(' ').map(word => word.split("").reverse().join(""));
 //     return reverseWordArr.join(' ');
 // }
 
 // console.log(reverseWords('First string'));
+
+// Date of solution 2022.02.13
+
+let copyMachine = (arr, num) => {
+    let newArr = [];
+    while (num >= 1) {
+        newArr.push([...arr]);
+        num--;
+    }
+    return newArr;
+}
+
+console.log(copyMachine(['happy', 'code', 'again'], 3));
