@@ -32,9 +32,9 @@
 //     ])
 // );
 
-let reverseWords = (str) => {
-    let reverseWordArr = str.split(' ').map(word => word.split("").reverse().join(""));
-    return reverseWordArr.join(' ');
-}
+// let reverseWords = (str) => {
+//     let reverseWordArr = str.split(' ').map(word => word.split("").reverse().join(""));
+//     return reverseWordArr.join(' ');
+// }
 
-console.log(reverseWords('First string'));
+// console.log(reverseWords('First string'));
