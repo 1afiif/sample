@@ -43,4 +43,16 @@
 
 // Date of solution 2022.02.19
 
+let zeroArray = (arr, arr2) => {
+    let newArr = [];
+    for (let i = 0; i < arr; i++){
+        let row = [];
+        for (let j = 0; j < arr2; j++){
+            row.push(0);
+        }
+        newArr.push(row);
+    }
+    return newArr;
+}
 
+console.log(zeroArray(4,4));
