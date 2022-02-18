@@ -32,9 +32,15 @@
 //     ])
 // );
 
+// Date of solution 2022.02.11
+
 // let reverseWords = (str) => {
 //     let reverseWordArr = str.split(' ').map(word => word.split("").reverse().join(""));
 //     return reverseWordArr.join(' ');
 // }
 
 // console.log(reverseWords('First string'));
+
+// Date of solution 2022.02.19
+
+
