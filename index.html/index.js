@@ -59,10 +59,12 @@
 
 // Date of solution 2022.02.20
 
-let greeting = () => {
-    var olleh = '!DLROW OLLEH';
-    return olleh.split("").reverse().join("").toLowerCase();
+// let greeting = () => {
+//     var olleh = '!DLROW OLLEH';
+//     return olleh.split("").reverse().join("").toLowerCase();
 
-}
+// }
 
-console.log(greeting());
+// console.log(greeting());
+
+// Date of solution 2022.03.11
