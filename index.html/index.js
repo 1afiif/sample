@@ -1,16 +1,6 @@
-// Date of solution 2022.02.09
-
-// function alphabetPosition(text) {
-//     return text
-//         .toUpperCase()
-//         .match(/[a-z]/gi)
-//         .map((c) => c.charCodeAt() - 64)
-//         .join(' ');
-// }
-
-// console.log(alphabetPosition('Hello World is not enough for us '));
 
 // Date of solution 2022.02.01
+
 
 // function openOrSenior(data) {
 //     var result = [];
@@ -66,6 +56,51 @@
 
 // console.log(greeting());
 
+
+// Date of solution 2022.03.01
+
+// function filter_list(arr) {
+//   for (var i = 0; i < arr.length; i++) {
+//     if (typeof arr[i] === 'string') {
+//       arr.splice(i, 1);
+//       i--;
+//     }
+//   }
+//   return arr;
+// }
+
+// Date of solution 2022.03.04
+
+// let users = {
+//   Alan: {
+//     age: 27,
+//     online: true,
+//   },
+//   Jeff: {
+//     age: 32,
+//     online: true,
+//   },
+//   Sarah: {
+//     age: 48,
+//     online: true,
+//   },
+// };
+
+// const countOnline = (usersObj) => {
+//   let result = 0;
+//   for (let users in usersObj) {
+//     if (usersObj[users].online === true) {
+//       result++;
+//     }
+//   }
+//   return result;
+// };
+
+// console.log(countOnline(users));
+
+// Date of Solution 2022.03.10 Return Largest Numbers in Array 
+
+
 // Date of solution 2022.03.11
 
 function filter_list(arr) {
@@ -77,3 +112,4 @@ function filter_list(arr) {
   }
   return arr;
 }
+
