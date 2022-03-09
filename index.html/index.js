@@ -98,18 +98,20 @@
 
 // console.log(countOnline(users));
 
+// function filter_list(arr) {
+//   for (var i = 0; i < arr.length; i++) {
+//     if (typeof arr[i] === 'string') {
+//       arr.splice(i, 1);
+//       i--;
+//     }
+//   }
+//   return arr;
+// }
+
 // Date of Solution 2022.03.10 Return Largest Numbers in Array 
 
 
-// Date of solution 2022.03.11
 
-function filter_list(arr) {
-  for (var i = 0; i < arr.length; i++) {
-    if (typeof arr[i] === 'string') {
-      arr.splice(i, 1);
-      i--;
-    }
-  }
-  return arr;
-}
+
+
 
