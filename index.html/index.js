@@ -80,29 +80,32 @@
 
 // Date of solution 2022.03.04
 
-let users = {
-  Alan: {
-    age: 27,
-    online: true,
-  },
-  Jeff: {
-    age: 32,
-    online: true,
-  },
-  Sarah: {
-    age: 48,
-    online: true,
-  },
-};
+// let users = {
+//   Alan: {
+//     age: 27,
+//     online: true,
+//   },
+//   Jeff: {
+//     age: 32,
+//     online: true,
+//   },
+//   Sarah: {
+//     age: 48,
+//     online: true,
+//   },
+// };
 
-const countOnline = (usersObj) => {
-  let result = 0;
-  for (let users in usersObj) {
-    if (usersObj[users].online === true) {
-      result++;
-    }
-  }
-  return result;
-};
+// const countOnline = (usersObj) => {
+//   let result = 0;
+//   for (let users in usersObj) {
+//     if (usersObj[users].online === true) {
+//       result++;
+//     }
+//   }
+//   return result;
+// };
 
-console.log(countOnline(users));
+// console.log(countOnline(users));
+
+// Date of Solution 2022.03.10 Return Largest Numbers in Array 
+ 
