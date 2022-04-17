@@ -137,18 +137,20 @@
 
 // Date of Solution 2022.04.08 Return index of capital letters
  
-const capital = (word) => {
-    let array = [];
+// const capital = (word) => {
+//     let array = [];
 
-    for (let i = 0; i < word.length; i++) {
-        if (word[i] === word[i].toUpperCase()) {
-            array.push(i);
-        }
-    }
-    return array;
-}
+//     for (let i = 0; i < word.length; i++) {
+//         if (word[i] === word[i].toUpperCase()) {
+//             array.push(i);
+//         }
+//     }
+//     return array;
+// }
 
-console.log(capital('CoDeWaRS'));
+// console.log(capital('CoDeWaRS'));
+
+
 
 
 
