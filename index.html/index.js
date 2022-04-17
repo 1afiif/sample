@@ -150,7 +150,31 @@
 
 // console.log(capital('CoDeWaRS'));
 
+// New Solution 17.04.2022
 
+function capitalizeOddEven(str) {
+    const word = str.split('');
+    const odd = word.map(funcMap).join('');
+    const even = word.map(funcMap2).join('');
 
+    return [even, odd];
+}
 
+function funcMap(x, y) {
+    if (y % 2 !== 0) {
+        return x.toUpperCase();
+    } else {
+        return x.toLowerCase();
+    }
+}
+
+function funcMap2(x, y) {
+    if (y % 2 === 0) {
+        return x.toUpperCase();
+    } else {
+        return x.toLowerCase();
+    }
+}
+
+console.log(capitalizeOddEven('Codewars'));
 
