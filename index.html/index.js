@@ -178,3 +178,5 @@ function funcMap2(x, y) {
 
 console.log(capitalizeOddEven('Codewars'));
 
+funcMap();
+
